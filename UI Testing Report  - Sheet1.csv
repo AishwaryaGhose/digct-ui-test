@@ -1,0 +1,41 @@
+Project Name,DIG CT,,,,,,,,,,
+Module Name,Home Page,,,,,,,,,,
+Reviewed By,Aishwarya Ghose,,,,,,,,,,
+Reviewed Date,19/10/2024,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+#SL,Module,Features ,Types of Test case,Test cases,Test Data,Expected Result,Actual Result,Reproducing Steps,Bug Screen Shot ,Developer Comments,Final Status
+TC_01,,,Non-functional Testing,Enter the URL of the Lethaldemo website,https://lethaldemo.com/digct/,lethaldemo official website's home page should be displayed,Same as expected ,,,,PASS
+TC_02,Header Section,,Non-functional Testing,Verify the navbar spacing,,Navbar spacing should match the original design,Navbar spacing is mismatched,,,,FAIL
+TC_03,Header Section,,Non-functional Testing,Verify the navbar padding on the x-axis,,Navbar padding on both sides should match the design,Padding on both sides is mismatched,,,,FAIL
+TC_04,Header Section,,Non-functional Testing,Verify the top spacing of the heading text,,Top spacing of the heading text should match the mock-up,Heading text spacing does not match,,,,FAIL
+TC_05,Header Section,,Non-functional Testing,"Verify the font weight of the ""Find Out More"" option link",,Font weight should match the original,Font weight does not match,,,,FAIL
+TC_06,Header Section,,Non-functional Testing,Verify the top paragraph spacing ,,Top paragraph spacing should match the original design,Top paragraph spacing does not match,,,,FAIL
+TC_07,Header Section,,Non-functional Testing,Verify the bottom spacing of the logos,,Bottom spacing of the logos should match,Bottom spacing of logos is mismatched,,,,FAIL
+TC_08,"Safety, Environment, Commitment Section",,Non-functional Testing,Verify the font weight in the paragraph and card sections,,Font weight in the paragraph and card sections should match the mock-up,Font weight does not match in both paragraph and card sections,,,,FAIL
+TC_09,"Safety, Environment, Commitment Section",,Non-functional Testing,Verify the card's height and weight,,Card's height and width should match the original design,Card's height and width do not match,,,,FAIL
+TC_10,Drilling Services Section,,Non-functional Testing,"Verify the font weight of the ""Learn More"" button",,"Font weight of the ""Learn More"" button should match the mock-up","Font weight of the ""Learn More"" button does not match",,,,FAIL
+TC_11,Drilling Services Section,,Non-functional Testing,Verify the image height,,Image height should match the original design,Image height is mismatched,,,,FAIL
+TC_12,Drilling Services Section,,Non-functional Testing,Verfy the spacing of the heading ,,Heading spacing should match the mock-up,Spacing of the heading is mismatched,,,,FAIL
+TC_13,Drilling Services Section,,Non-functional Testing,"Verify the ""What We Do"" section spacing",,"Spacing of the ""What We Do"" section should match the mock-up","Spacing of the ""What We Do"" section does not match",,,,FAIL
+TC_14,Drilling Services Section,,Non-functional Testing,"Verify the ""What We Do"" section's card height and width",,"Card height and width in the ""What We Do"" section should match the design",Card height and width do not match,,,,FAIL
+TC_15,Projects Section,,Non-functional Testing,Verify the spacing of recent projects section,,"Spacing of the ""Recent Projects"" section should match the mock-up","Spacing of the ""Recent Projects"" section is mismatched",,,,FAIL
+TC_17,Projects Section,,Non-functional Testing,"Verify the spacing of the ""Recent Projects"" section",,"Bottom spacing of the ""Achievement in Numbers"" section should match the design","Bottom spacing of the ""Achievement in Numbers"" section is mismatched",,,,FAIL
+TC_16,Achievement Section,,Non-functional Testing,"Verify the bottom spacing of the ""Achievement in Numbers"" section",,The bottom spacing of achievement in numbers section should match as per design,The bottom spacing of achievement in numbers section is mismatch,,,,FAIL
+TC_17,Achievement Section,,Non-functional Testing,Verify the card's height of the achievement in numbers section,,"Card height in the ""Achievement in Numbers"" section should match the mock-up","Card height in the ""Achievement in Numbers"" section does not match",,,,FAIL
+TC_18,Latest News Section,,Non-functional Testing,Verify the left image height in the blog section,,Left image height in the blog section should match the original design,Left image height in the blog section does not match,,,,FAIL
+TC_19,Latest News Section,,Non-functional Testing,Verify the right image heights in the blog section,,The hieght of the images of blog section should be match with mock-up,The hieght of the images of blog section don't match with mock-up,,,,FAIL
+TC_20,Latest News Section,,Non-functional Testing,Verify the spacing of the blog section's right images,,Spacing of the blog section's right images should match the mock-up,Spacing of the right images is mismatched,,,,FAIL
+TC_21,Careers Section,,Non-functional Testing,Verify the footer's image height,,Footer image height should match the mock-up,Footer image height does not match,,,,FAIL
+TC_22,Careers Section,,Non-functional Testing,Verify the spacing of the input part in the footer section,,Spacing of the input part in the footer section should match the original design,Spacing of the input part in the footer section does not match,,,,FAIL
+TC_23,Footer Section,,Non-functional Testing,verify the spacing of contact links in footer section,,Spacing of the contact links in the footer section should match the mock-up,Spacing of the contact links in the footer section does not match,,,,FAIL
+TC_24,Footer Section,,Functional Testing,Verify the subscriber form submission without any input,,Form should not be submitted without any input,Same as expected ,,,,PASS
+TC_25,Footer Section,,Functional Testing,Verify subscriber form submission with one input field left blank,"name: aishwarya      
+email: N/A",Giving one input and another one is keeping blank then form shoud not sent,Same as expected ,,,,PASS
+TC_26,Footer Section,,Functional Testing,Verify the subscriber form's email validation,aishwarya.pu.cse@gmail.com,email should not accept without @domain.com,Same as expected ,,,,PASS
+TC_27,Footer Section,,Functional Testing,Verify the subscriber form's name validation,12613667,Number input should not accept ,Number accepts,,,,FAIL
+TC_28,,,Functional Testing,Verify all buttons and links functionality,,All links and button should be worked,"Nav bar CT Drilling dropdown links are not work, in main section the hover links (learn more) are not work and Footer section's follow (facebook, instragram, linkedin) links are not work",,,,FAIL
+TC_29,,,Responsiveness Testing,Verify the website across various screen sizes,,The website should responsive in verious screen sizes,Same as expected ,,,,PASS
+TC_30,,,Cross-Browser Compatibility,Test the website on major browsers,Google Chrome,Runs properly ,Same as expected ,,,,PASS
+TC_31,,,Cross-Browser Compatibility,Test the website on major browsers,Microsoft Edge ,Runs properly ,Same as expected ,,,,PASS
+TC_32,,,Cross-Browser Compatibility,Test the website on major browsers,Mozilla Firefox,Runs properly ,Same as expected ,,,,PASS
